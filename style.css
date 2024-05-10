@@ -1,0 +1,50 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    .nav-link{
+        padding: 20px 50px;
+    }
+    .logo-icon{
+        font-size: 28px;
+        color: orange;
+    }
+}
+
+.sticky-navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav{
+    gap: 30px;
+}
+
+.hero-section{
+    background: peachpuff;
+    height: 100vh;
+    .hero-caption-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        .caption-group{
+            text-align: center;
+            .hero-image{
+                width: 300px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.portfolio-section{
+    padding: 50px 0px;
+    text-align: center;
+    .portfolio-wrap{
+        .portfolio-item{
+            margin-bottom: 20px;
+        }
+    }
+}
